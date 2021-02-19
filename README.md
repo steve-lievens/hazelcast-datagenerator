@@ -3,8 +3,8 @@ Command line application to create transactions into the Hazelcast demo applicat
 
 It has two required parameters :
 
-  -n, --number_of_transactions  Total number of transactions that will be generated
-  -i, --interval                interval between transactions in seconds
+*  -n, --number_of_transactions  Total number of transactions that will be generated
+*  -i, --interval                interval between transactions in seconds
 
 Example :
 
