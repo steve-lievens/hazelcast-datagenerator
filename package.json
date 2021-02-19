@@ -1,0 +1,16 @@
+{
+  "name": "hazelcast-datagenerator",
+  "version": "1.0.0",
+  "description": "Command Line tool to push new data to the Hazelcast REST api client, which will insert it into a Hazelcast IMDG map. Data will be created random, input parameters allow the amount of REST calls and the interval between them.",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "author": "Steve Lievens",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv-defaults": "^2.0.1",
+    "yargs": "^13.2.4"
+  }
+}
